@@ -6,7 +6,7 @@ export default function Jumbotron() {
   return (
     <div className={css.global}>
       <div className={css.left}>
-        <div>
+        <div className={css.leftt}>
           <div className={css.textFire}>
             <h1>{t("jumbotron.title")}</h1>
             <img
