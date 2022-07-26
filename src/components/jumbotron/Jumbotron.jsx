@@ -1,5 +1,6 @@
 import css from "./Jumbotron.module.scss";
 import { useTranslation } from "react-i18next";
+
 export default function Jumbotron() {
   const { t } = useTranslation();
   return (
