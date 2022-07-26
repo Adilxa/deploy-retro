@@ -16,19 +16,19 @@ const Header = () => {
   return (
     <>
       <Container>
-        <section class={scss.top_nav}>
+        <section className={scss.top_nav}>
           <Link to="/" className={scss.img}>
             <img src="/images/header/logo.svg" alt="" />
           </Link>
           <div className={scss.right + " " + (i18n.language === "ru" ? scss.active : "")}>
             <label
-              class={scss.menu_button_container + " " + (open ? scss.active : "")}
+              className={scss.menu_button_container + " " + (open ? scss.active : "")}
               onClick={() => setOpen(!open)}
             >
-              <div class={scss.menu_button}></div>
+              <div className={scss.menu_button}></div>
             </label>
 
-            <div class={scss.menu}>
+            <div className={scss.menu}>
               <div className={scss.nav}>
                 <Link to="/about">{t("header.about")}</Link>
                 <Link to="/pricing">{t("header.pricing")}</Link>
@@ -36,13 +36,13 @@ const Header = () => {
                 <Link to="/login">{t("header.login")}</Link>
                 <Link to="/register">{t("header.register")}</Link>
               </div>
-              <div class={scss.dropdown}>
-                <div class={scss.dropdown_select}>
-                  <span class={scss.select} onClick={() => setActive(!active)}>
+              <div className={scss.dropdown}>
+                <div className={scss.dropdown_select}>
+                  <span className={scss.select} onClick={() => setActive(!active)}>
                     {language}
                   </span>
                 </div>
-                <div class={scss.dropdown_list + " " + (active ? scss.active : "")}>
+                <div className={scss.dropdown_list + " " + (active ? scss.active : "")}>
                   <div className={scss.dropdown_list__item} onClick={() => changeLanguage("en")}>
                     ENGLISH
                   </div>
