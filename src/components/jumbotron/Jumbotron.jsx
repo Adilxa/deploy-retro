@@ -9,10 +9,6 @@ export default function Jumbotron() {
         <div className={css.leftt}>
           <div className={css.textFire}>
             <h1>{t("jumbotron.title")}</h1>
-            <img
-              className={css.fire}
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/FireIcon.svg/1200px-FireIcon.svg.png"
-            />
           </div>
           <p>{t("jumbotron.paragraph")}</p>
           <button className={css.getStartedBtn}>{t("jumbotron.button")}</button>
