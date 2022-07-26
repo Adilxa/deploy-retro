@@ -11,6 +11,7 @@ export default function Jumbotron() {
             <h1>{t("jumbotron.title")}</h1>
             <img
               className={css.fire}
+              src={"/images/footer/Intercomm.svg"}
             />
           </div>
           <p>{t("jumbotron.paragraph")}</p>
