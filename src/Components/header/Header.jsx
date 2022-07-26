@@ -3,7 +3,6 @@ import scss from "./header.module.scss";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
-import { Jumbotron } from "../jumbotron/Jumbotron";
 const Header = () => {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(false);
@@ -63,7 +62,6 @@ const Header = () => {
         <Link to="/login">{t("header.login")}</Link>
         <Link to="/register">{t("header.register")}</Link>
       </div>
-      <Jumbotron />
     </>
   );
 };
