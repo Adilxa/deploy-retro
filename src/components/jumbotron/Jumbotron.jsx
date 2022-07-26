@@ -1,7 +1,7 @@
 import css from "./Jumbotron.module.scss";
 import { useTranslation } from "react-i18next";
 
-export default function Jumbotron() {
+const Jumbotron = () => {
   const { t } = useTranslation();
   return (
     <div className={css.global}>
@@ -9,6 +9,10 @@ export default function Jumbotron() {
         <div className={css.leftt}>
           <div className={css.textFire}>
             <h1>{t("jumbotron.title")}</h1>
+            <img
+              className={css.fire}
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/FireIcon.svg/1200px-FireIcon.svg.png"
+            />
           </div>
           <p>{t("jumbotron.paragraph")}</p>
           <button className={css.getStartedBtn}>{t("jumbotron.button")}</button>
@@ -20,3 +24,5 @@ export default function Jumbotron() {
     </div>
   );
 }
+
+export default Jumbotron;
