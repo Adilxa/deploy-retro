@@ -1,5 +1,6 @@
 import css from "./Companies.module.scss";
 import { useTranslation } from "react-i18next";
+
 export default function Companies() {
   const { t } = useTranslation();
   return (

@@ -15,7 +15,7 @@ const Jumbotron = () => {
             />
           </div>
           <p>{t("jumbotron.paragraph")}</p>
-          <button className={css.getStartedBtn}>{t("jumbotron.button")}hello</button>
+          <button className={css.getStartedBtn}>{t("jumbotron.button")}</button>
         </div>
       </div>
       <div className={css.right}>
