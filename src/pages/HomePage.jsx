@@ -1,9 +1,9 @@
-import Jumbotron from "../components/jumbotron/Jumbotron";
-import Companies from "../components/companies/Companies";
-// import BottomCompanies from "../components/bottomCompanies/BottomCompanies";
-import Footer from "../components/footer/Footer";
-import Header from "../components/header/Header";
-import Benefits from "../components/benefits/Benefits";
+import Jumbotron from "../Components/jumbotron/Jumbotron";
+import Companies from "../Components/companies/Companies";
+import BottomCompanies from "../Components/bottomCompanies/BottomCompanies";
+import Footer from "../Components/footer/Footer";
+import Header from "../Components/header/Header";
+import Benefits from "../Components/benefits/Benefits";
 export default function HomePage() {
   return (
     <div>
@@ -11,7 +11,7 @@ export default function HomePage() {
       <Jumbotron />
       <Companies />
       <Benefits />
-      {/* <BottomCompanies /> */}
+      <BottomCompanies /> 
       <Footer />
     </div>
   );
