@@ -11,7 +11,7 @@ export default function HomePage() {
       <Jumbotron />
       <Companies />
       <Benefits />
-      <BottomCompanies /> 
+      <BottomCompanies />
       <Footer />
     </div>
   );
