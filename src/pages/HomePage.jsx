@@ -1,4 +1,4 @@
-import Header from "../components/header/header";
+import Header from "../components/header/Header";
 import Jumbotron from "../components/jumbotron/Jumbotron";
 import Companies from "../components/companies/Companies";
 import Benefits from "../components/benefits/Benefits";
