@@ -79,7 +79,7 @@ export default function LoginPage() {
         </label>
         <div className={css.recap}>
           <ReCAPTCHA
-            sitekey="6LctK0ohAAAAANvcCjCz2xj_jGnMcjBZQ6LanRCM"
+            sitekey="6LdcSnchAAAAAGJmv3atTmabVboNA1cfBorNOltI"
             onErrored={() => alert("Check your internet connection")}
             onChange={() => setCaptcha(!captcha)}
           />
