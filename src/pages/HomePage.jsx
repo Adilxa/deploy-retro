@@ -1,9 +1,9 @@
-import BottomCompanies from "../Components/bottomCompanies/BottomCompanies";
-import Footer from "../../src/Components/Footer/Footer";
-import Header from "../Components/Header/Header";
-import Benefits from "../Components/benefits/Benefits";
-import Jumbotron from "../Components/Jumbotron/Jumbotron";
-import Companies from "../Components/Companies/Companies";
+import BottomCompanies from "../component/bottomCompanies/BottomCompanies";
+import Footer from "../component/Footer/Footer";
+import Header from "../component/Header/Header";
+import Benefits from "../component/benefits/Benefits";
+import Jumbotron from "../component/Jumbotron/Jumbotron";
+import Companies from "../component/Companies/Companies";
 export default function HomePage() {
   return (
     <div>
