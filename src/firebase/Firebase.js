@@ -3,13 +3,12 @@ import "firebase/compat/firestore";
 import "firebase/compat/auth";
 
 const config = firebase.initializeApp({
-  apiKey: "AIzaSyCy0hp9bc8IJdrV_lHvk_65TMl-nKrtLXM",
-  authDomain: "deploysiteretro.firebaseapp.com",
-  projectId: "deploysiteretro",
-  storageBucket: "deploysiteretro.appspot.com",
-  messagingSenderId: "743722255960",
-  appId: "1:743722255960:web:f2b338f3e2fe1753866c2d",
-  measurementId: "G-Q6Z9KDMPT1"
+  apiKey: "AIzaSyC-cmrNEA9cyONQ8OY8X3kIiEseoK3i2eU",
+  authDomain: "easy-retro.firebaseapp.com",
+  projectId: "easy-retro",
+  storageBucket: "easy-retro.appspot.com",
+  messagingSenderId: "769494545713",
+  appId: "1:769494545713:web:21840468216e5706522c10"
 });
 if (!firebase.apps.length) {
   firebase.initializeApp(config);
